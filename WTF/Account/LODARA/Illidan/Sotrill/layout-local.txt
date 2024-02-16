@@ -1,0 +1,8 @@
+Version: 1
+Frame: GroupLootHistoryFrame
+FrameLevel: 1
+Anchor: TOP
+X: 274
+Y: -147
+W: 261
+H: 590

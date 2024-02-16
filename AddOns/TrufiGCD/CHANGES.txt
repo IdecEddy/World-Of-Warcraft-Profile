@@ -1,0 +1,10 @@
+lightweight tag e8feaf560788d3937ddc3cc4e1a0cb1fee58e409 v1.18
+Author:	Mstislav Zhivodkov <stevemyz@gmail.com>
+Date:	Sun Jan 21 18:59:24 2024 +0000
+
+commit e8feaf560788d3937ddc3cc4e1a0cb1fee58e409
+Author: Mstislav Zhivodkov <stevemyz@gmail.com>
+Date:   Sun Jan 21 18:59:24 2024 +0000
+
+    Fix stuck spells in classic
+

@@ -1,0 +1,42 @@
+VER 3 000000000000005B "#" "135867"
+/focus
+END
+VER 3 0000000000000047 "." "Ability_Iyyokuk_Drum_Yellow"
+/target arena2
+END
+VER 3 0000000000000045 "." "Ability_Iyyokuk_Drum_Red"
+/target arena1
+END
+VER 3 0000000000000046 "." "Ability_Iyyokuk_Drum_White"
+/target arena3
+END
+VER 3 0000000000000060 "." "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END
+VER 3 000000000000005D "audit" "INV_MISC_QUESTIONMARK"
+/pvpaudit
+END
+VER 3 000000000000005C "Call the void" "INV_MISC_QUESTIONMARK"
+#Void Totem
+/use Void Totem
+/y I call the void!
+END
+VER 3 0000000000000061 "dimount" "134400"
+/dismount
+END
+VER 3 000000000000005E "echo" "INV_MISC_QUESTIONMARK"
+#showtooltip Echoing Reprimand(Kyrian)
+/cast Symbols of Death
+/cast [harm,target=target] Echoing Reprimand(Kyrian)
+END
+VER 3 0000000000000062 "hide" "134400"
+/run ObjectiveTrackerFrame:Show()
+END
+VER 3 000000000000005F "items" "INV_MISC_QUESTIONMARK"
+/use Ring of Collapsing Futures
+/use Wraps of Electrostatic Potential
+END
+VER 3 0000000000000063 "zoom" "134400"
+/console cameraDistanceMaxZoomFactor 3.5
+END

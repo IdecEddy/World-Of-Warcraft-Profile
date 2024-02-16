@@ -1,0 +1,45 @@
+VER 3 0100000000000019 "." "INV_MISC_QUESTIONMARK"
+#showtooltip Sap
+/cleartarget
+/targetenemyplayer
+/cast [stance:1/3, harm, nodead] Sap
+END
+VER 3 0100000000000014 "blind" "INV_MISC_QUESTIONMARK"
+#showtooltip Blind
+/cast [@mouseover,harm,nodead][harm,nodead]Blind
+/p BLIND
+END
+VER 3 010000000000001D "Evis" "INV_MISC_QUESTIONMARK"
+#showtooltip Eviscerate
+/use 13
+/cast Cold Blood
+/cast [harm,target=target] Eviscerate
+END
+VER 3 0100000000000012 "st" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists] ShadowStep; ShadowStep
+END
+VER 3 010000000000001A "st/dis" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowstep
+#showtooltip Dismantle(PvP Talent
+/castsequence reset=3 [target=focus] Shadowstep, Dismantle(PvP Talent)
+END
+VER 3 010000000000001F "ult" "134400"
+#show Deathmark
+/use Crimson Gladiator's Badge of Ferocity
+/cast Blood Fury(Racial)
+/cast Deathmark
+END
+VER 3 0100000000000020 "Ult" "134400"
+#show Shadow Blades
+/cast Thistle Tea
+/cast Shuriken Tornado
+/cast Shadow Blades
+/use Mirror of Fractured Tomorrows
+END
+VER 3 0100000000000021 "ult2" "134400"
+#show Shadow Dance
+/cast Shadow Dance
+/cast Symbols of Death
+/use My'das Talisman
+/use Verdant Gladiator's Badge of Ferocity
+END
